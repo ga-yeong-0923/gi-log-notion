@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title : 'gi-log',
+      title : 'GI-log',
       theme: ThemeData(
         primarySwatch: Colors.yellow,
       ),
@@ -62,7 +62,7 @@ class _MyCustomFormState extends State<MyCustomForm> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('gi-log'),
+        title: Text('GI-log'),
         centerTitle: true,
         elevation: 0.0,
         actions: <Widget>[
@@ -79,7 +79,7 @@ class _MyCustomFormState extends State<MyCustomForm> {
               leading: Icon(Icons.home),
               title:Text('기-록은 어떤 서비스인가요?'),
               onTap: () async {
-                const url= 'https://aspiring-fountain-cad.notion.site/1-b2c8c635f168410fbfb288529649cd0b';
+                const url= 'https://aspiring-fountain-cad.notion.site/8b54b902c4514ba5ab5844d186b6906f';
                 if (await canLaunch(url)) {
                   launch(url);
                 } else {
