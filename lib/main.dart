@@ -34,6 +34,7 @@ class MyCustomForm extends StatefulWidget {
 class _MyCustomFormState extends State<MyCustomForm> {
 
   String _url = '';
+  String https = 'https://';
   //textfield data 받아오기
   TextEditingController _textStream = TextEditingController();
 
@@ -132,7 +133,7 @@ class _MyCustomFormState extends State<MyCustomForm> {
                       _url = text;
                     });
                   },
-                  decoration: InputDecoration(
+                decoration: InputDecoration(
                     labelText: '기록상자 코드를 입력해주세요.',
                     hintText: '카카오톡 채널로 기록상자 코드를 받아보세요!',
                     labelStyle: TextStyle(color: Colors.black),
@@ -142,13 +143,14 @@ class _MyCustomFormState extends State<MyCustomForm> {
                     ),
                   ),
                 ),
+
                 ElevatedButton(
-                  onPressed: () async{
-                    if (await canLaunch(_url)) {
-                      launch(_url);
+                    onPressed: () async{
+                    if (await canLaunch(https+_url)) {
+                      launch(https+_url);
                     } else {
                       // ignore: avoid_print
-                      print("Can't launch $_url");
+                      print("Can't launch $https+_url");
                     }
                   }, child: const Text('나의 기록상자 열어보기',),),
               ],
