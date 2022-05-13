@@ -1,6 +1,6 @@
-# gi_log_notion
+# gilog_notion
 
-A new Flutter project.
+android
 
 ## Getting Started
 

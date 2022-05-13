@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "171429528800",
+    "project_id": "gilognotion",
+    "storage_bucket": "gilognotion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171429528800:android:8e4f28bd94fd1cbfb6fc85",
+        "android_client_info": {
+          "package_name": "com.example.gilog_notion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171429528800-69e8k3eae122aqm1ckvkueleu0fiq0nv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gilog_notion",
+            "certificate_hash": "c3c30faf6b7843c67faea696ee17413ca1f04da7"
+          }
+        },
+        {
+          "client_id": "171429528800-dimgapdv0k42ve1ujf7msohqg9beg29m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgSus4G-Ftoq6B-paY1osJ93Gte2qZMXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171429528800-dimgapdv0k42ve1ujf7msohqg9beg29m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

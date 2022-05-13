@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 var theme = ThemeData(
+
   iconTheme: IconThemeData(color: Colors.white),
   appBarTheme: AppBarTheme(color: Colors.white, elevation: 1, titleTextStyle: TextStyle(color: Colors.black, fontFamily: 'a엄마의편지', fontSize: 25),
     actionsIconTheme: IconThemeData(color: Colors.black),

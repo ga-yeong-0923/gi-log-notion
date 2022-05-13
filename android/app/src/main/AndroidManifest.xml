@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gi_log_notion">
+    package="com.example.gilog_notion">
    <application
-        android:label="gi_log_notion"
+        android:label="기-록"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
